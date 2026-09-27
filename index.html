@@ -5,14 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>我的个人主页</title>
   <style>
+    <style>
+  html {
+    min-height: 100%;
+    background-color: #faf9ff;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  body {
+    max-width: 860px;
+    margin: 90px auto;
+    padding: 0 28px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #292735;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 32px;
+  }
+
+  p {
+    margin-bottom: 26px;
+  }
+
+  a {
+    color: #6854a3;
+    text-underline-offset: 5px;
+  }
+
+  @media (max-width: 600px) {
     body {
-      max-width: 720px;
-      margin: 80px auto;
-      padding: 0 24px;
-      font-family: Georgia, serif;
-      line-height: 1.8;
-      color: #333;
+      margin: 48px auto;
+      padding: 0 22px;
+      font-size: 18px;
     }
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+</style>
   </style>
 </head>
 <body>
